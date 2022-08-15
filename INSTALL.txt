@@ -1,0 +1,2 @@
+gcc -Drestrict=__restrict -c fibo.c -o fibo.o
+gcc -Drestrict=__restrict test_fibo.c fibo.o -o test_fibo
